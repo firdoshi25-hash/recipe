@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: linear-gradient(90deg, #4caf50, #2196f3);
+  color: white;
+  text-align: center;
+  padding: 25px 10px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+}
+
+header p {
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+nav {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: #333;
+}
+
+section {
+  background-color: #fff;
+  width: 80%;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+section img {
+  width: 20%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+section img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3 {
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: square;
+  margin: 10px 0 20px 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+button, a.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+button:hover, a.button:hover {
+  background-color: #388e3c;
+}
+
+.blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.post {
+  background: white;
+  width: 300px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.post:hover {
+  transform: translateY(-5px);
+}
+
+.post img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.post h3 {
+  color: #2196f3;
+  margin: 10px;
+}
+
+.post p {
+  padding: 0 10px 10px;
+}
+
+.post a {
+  display: block;
+  padding: 10px;
+  color: #2196f3;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
